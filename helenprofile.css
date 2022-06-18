@@ -1,0 +1,58 @@
+@charset "utf-8";
+html, body, h1, h2, h3, p{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	display: block;
+}
+body {
+	background-image: url(images/bulbs.jpg);
+	background-repeat: no-repeat;
+	background-color: #544D47;
+}
+.wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+main h1 {
+	font-family: 'Kirang Haerang', cursive;
+	padding: 1em;
+}
+main p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+main h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+main {
+	background-color: #F8F8F8;
+	padding: 1em;
+}
+main h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: 1.3em;
+
+}
+
+main img {
+	float: left;
+	margin-right: 1em;
+}
+footer {
+	padding: 1em;
+	text-align: center;
+	background-color: #FDF1E3;
+	font-family: 'Oswald', sans-serif;
+}
+
+.divider2em {
+	clear: both;
+}
